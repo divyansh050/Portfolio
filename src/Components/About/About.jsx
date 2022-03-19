@@ -18,7 +18,7 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right">
-          Hi, I am <span className="about__name">Divynash</span>
+          Hi, I am <span className="about__name">Divyansh</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
