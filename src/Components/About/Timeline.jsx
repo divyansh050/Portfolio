@@ -72,7 +72,6 @@ export const Timeline = () => {
             date={"Nov 2021 - Dec 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
@@ -81,7 +80,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
+             
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
