@@ -68,6 +68,44 @@ export const Timeline = () => {
               indirectly with help of student guides.
             </p>
           </VerticalTimelineElement>
+           <VerticalTimelineElement
+            date={"Nov 2021 - Dec 2021"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Student Guide
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Masai School
+            </h4>
+            <p data-aos="fade-right">
+              Mentoring and clearing student's doubts via one to one and one to
+              all video calls, Motivating students to do hard work, provides
+              emotional support to them & Helping students to start their career
+              in Tech.
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"October 2021 - April 2022"}
             contentStyle={{
