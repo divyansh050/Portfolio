@@ -13,7 +13,8 @@ import {
   SiReactrouter,
   SiJavascript,
   SiMongodb,
-  SiNodedotjs
+  SiNodedotjs,
+  SiChakraui,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -25,14 +26,54 @@ export const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
+
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img
-                  src="https://i.ibb.co/Krsmw3J/image.png"
-                  alt="Mail Chimp"
-                />
+                <img src="https://i.ibb.co/31sWxqf/image.png" alt="TicTacToe" />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Classic TicTacToe</h2>
+              <p>
+                Mini project of A classic TicTacToe game built using ReactJS.
+                Features : Button for New Game, History of all the wins, etc.
+              </p>
+              <div>
+                <FaReact />
+                <SiHtml5 />
+                <DiCss3 />
+                <SiChakraui />
+              </div>
+              <div>
+                <a
+                  href="https://tic-tac-toe-eta-seven.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/divyansh050/tic-tac-toe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img src="https://i.ibb.co/Krsmw3J/image.png" alt="Zara App" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
@@ -73,7 +114,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
