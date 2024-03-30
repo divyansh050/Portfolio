@@ -25,7 +25,7 @@ export const About = () => {
           {/* A Full Stack Developer who loves solving problems and building
           projects. I am equipped with a variety of technologies and tools to
           help me build the best possible product. */}
-          Attentive Full-Stack Web Developer having 2 years of work experience in ReactJs, NextJs, JS and more with strong front-end design , problem-solving skills and expertise in MERN stack. Ability to work both independently and in a collaborative team. Looking forward to honing my skills in a challenging work environment.
+          Attentive Full-Stack Web Developer having 2 years of work experience in ReactJs, NextJs, JS, MongoDb, Mongoose and more with strong front-end design , problem-solving skills and expertise in MERN stack. Ability to work both independently and in a collaborative team. Looking forward to honing my skills in a challenging work environment.
         </p>
         <div className="about__contact center">
           <a

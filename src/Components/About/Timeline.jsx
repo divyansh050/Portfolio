@@ -61,7 +61,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Tracxn
+              Tracxn (Remote)
             </h4>
             <p data-aos="fade-right">
               Working as a Full-stack Dev from last 2 years, Managing UI components library of product, all external pages including SEO pages with data management, API integration, EC2 Consumer setups, lambda functions and more. Using NextJs. ReactJS, NodsJs, MongoDB, Mongoose, JS, stylus, AWS.
