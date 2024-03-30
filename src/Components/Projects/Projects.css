@@ -69,10 +69,6 @@
   transition: all 0.2s ease-in-out;
 }
 
-.project_information > div:nth-child(3) > svg:hover {
-  font-size: 3.3em;
-}
-
 .project_information > div:nth-child(4) {
   margin-top: 0.6em;
   display: flex;
