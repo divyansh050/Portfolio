@@ -8,7 +8,10 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiAmazonaws,
+  SiStylus,
+  SiNextdotjs
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -35,7 +38,11 @@ export const Techstacks = () => {
           </div>
           <div>
             <FaReact />
-            <h5>React</h5>
+            <h5>Reactjs</h5>
+          </div>
+          <div>
+            <SiNextdotjs />
+            <h5>Nextjs</h5>
           </div>
           <div>
             <FaNodeJs />
@@ -70,6 +77,14 @@ export const Techstacks = () => {
           <div>
             <VscGithub />
             <h5>Github</h5>
+          </div>
+          <div>
+            <SiAmazonaws />
+            <h5>AWS</h5>
+          </div>
+          <div>
+            <SiStylus />
+            <h5>Stylus</h5>
           </div>
         </div>
       </div>

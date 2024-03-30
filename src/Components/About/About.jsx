@@ -25,10 +25,7 @@ export const About = () => {
           {/* A Full Stack Developer who loves solving problems and building
           projects. I am equipped with a variety of technologies and tools to
           help me build the best possible product. */}
-          Attentive Full-Stack Web Developer with strong front-end design ,
-          problem-solving skills and expertise in MERN stack. Self disciplined
-          and able to handle multiple things and competing deadlines. Always
-          curious and consistent to learn new technologies.
+          Attentive Full-Stack Web Developer having 2 years of work experience in ReactJs, NextJs, JS and more with strong front-end design , problem-solving skills and expertise in MERN stack. Ability to work both independently and in a collaborative team. Looking forward to honing my skills in a challenging work environment.
         </p>
         <div className="about__contact center">
           <a
@@ -68,7 +65,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1qUmlwz5cbUi1XUoeJqQhzKk0O03nrvG6/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NQ1Ue7qFWv_vZh_KEB2Y58zek9_-Vl0K/view?usp=drive_link"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -76,7 +73,7 @@ export const About = () => {
           >
             <DescriptionIcon />
           </a>
-         
+
           <a
             href="https://www.google.com/maps/place/Gwalior,+Madhya+Pradesh/@26.214396,78.0508106,11z/data=!3m1!4b1!4m5!3m4!1s0x3976c5d1792291fb:0xff4fb56d65bc3adf!8m2!3d26.2124007!4d78.1772053"
             aria-label="github"

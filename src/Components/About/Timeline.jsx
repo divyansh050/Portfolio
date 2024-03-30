@@ -31,6 +31,42 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
+        <VerticalTimelineElement
+            date={"May 2022 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={
+              themename === "light"
+                ? { borderRight: "16px solid  #2D2424" }
+                : { borderRight: "16px solid  rgb(33, 150, 243)" }
+            }
+            //
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Engineer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Tracxn
+            </h4>
+            <p data-aos="fade-right">
+              Working as a Full-stack Dev from last 2 years, Managing UI components library of product, all external pages including SEO pages with data management, API integration, EC2 Consumer setups, lambda functions and more. Using NextJs. ReactJS, NodsJs, MongoDB, Mongoose, JS, stylus, AWS.
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"Dec 2021 - Feb 2022"}
             contentStyle={{

@@ -23,7 +23,7 @@ export default function App() {
       </section>
       <main>
         <About />
-        <Github />
+        {/* <Github /> */}
         <section id="#projects">
           <Projects />
         </section>
