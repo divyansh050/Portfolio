@@ -22,10 +22,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          {/* A Full Stack Developer who loves solving problems and building
-          projects. I am equipped with a variety of technologies and tools to
-          help me build the best possible product. */}
-          Attentive Full-Stack Web Developer having 2 years of work experience in ReactJs, NextJs, JS, MongoDb, Mongoose and more with strong front-end design , problem-solving skills and expertise in MERN stack. Ability to work both independently and in a collaborative team. Looking forward to honing my skills in a challenging work environment.
+          Attentive Full-Stack Web Developer with 2+ years of work experience in ReactJs, NextJs, JS, MongoDB, Mongoose, and more with strong front-end design , problem-solving skills and expertise in MERN stack. Ability to work both independently and in a collaborative team. Looking forward to honing my skills in a challenging work environment.
         </p>
         <div className="about__contact center">
           <a
@@ -56,7 +53,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/divyansh-singh-sikarwar-26858882?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bpjt3x%2FDuT4aTHScLyGy5Ww%3D%3D"
+            href="https://www.linkedin.com/in/divyansh-singh-sikarwar?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bpjt3x%2FDuT4aTHScLyGy5Ww%3D%3D"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -65,7 +62,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1CdxrrfnY174Bl-bzlICBj2kUoRuLPpF7/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Dl27Uj8nW1D7OSptmhVYVjjpvrbvCb6S/view?usp=drive_link"
             aria-label="github"
             className="link link--icon"
             target="_blank"
