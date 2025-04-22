@@ -22,7 +22,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Attentive Full-Stack Web Developer with 2 years of work experience in ReactJs, NextJs, JS, MongoDB, Mongoose, and more with strong front-end design , problem-solving skills and expertise in MERN stack. Ability to work both independently and in a collaborative team. Looking forward to honing my skills in a challenging work environment.
+          Attentive Full-Stack Web Developer with 3+ years of work experience in ReactJs, NextJs, JavaScript, MongoDB, Mongoose, and more with strong front-end design , problem-solving skills and expertise in MERN stack. Ability to work both independently and in a collaborative team. Looking forward to honing my skills in a challenging work environment.
         </p>
         <div className="about__contact center">
           <a
